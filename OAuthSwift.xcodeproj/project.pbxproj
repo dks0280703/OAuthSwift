@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		234F37591B0CD2970003BF75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234F37581B0CD2970003BF75 /* Main.storyboard */; };
+		234F375B1B0CD4AD0003BF75 /* FitbitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234F375A1B0CD4AD0003BF75 /* FitbitViewController.swift */; };
 		C48B28071AFA598D00C7DEF6 /* OAuthSwiftOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = C48B28061AFA598D00C7DEF6 /* OAuthSwiftOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C48B28211AFA599400C7DEF6 /* OAuth1Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43502681A6790EC00038A29 /* OAuth1Swift.swift */; };
 		C48B28221AFA599700C7DEF6 /* OAuth2Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43502691A6790EC00038A29 /* OAuth2Swift.swift */; };
@@ -30,6 +32,7 @@
 		C49FD5301AFB5DF500791E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49FD52E1AFB5DF500791E1A /* Main.storyboard */; };
 		C49FD5451AFB619100791E1A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454D53019772AE500354060 /* Constants.swift */; };
 		C49FD5471AFB623000791E1A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49FD5461AFB623000791E1A /* WebViewController.swift */; };
+		E91AFB8C984C29A3EBFA5C42 /* Pods_OAuthSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D373FF1B5AB8B41C65FAB3B2 /* Pods_OAuthSwiftDemo.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		F422B2D91A67B2A20060A70F /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F435027A1A6791B200038A29 /* OAuthSwift.framework */; };
 		F42F57D91A67F2040064249F /* OAuthSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F435027A1A6791B200038A29 /* OAuthSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F435027F1A6791B200038A29 /* OAuthSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = F435027E1A6791B200038A29 /* OAuthSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -99,6 +102,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		209ED109573D66629D3AE612 /* Pods-OAuthSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAuthSwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OAuthSwiftDemo/Pods-OAuthSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		234F37581B0CD2970003BF75 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		234F375A1B0CD4AD0003BF75 /* FitbitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitbitViewController.swift; sourceTree = "<group>"; };
 		C48B28021AFA598D00C7DEF6 /* OAuthSwiftOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OAuthSwiftOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48B28051AFA598D00C7DEF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C48B28061AFA598D00C7DEF6 /* OAuthSwiftOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAuthSwiftOSX.h; sourceTree = "<group>"; };
@@ -110,6 +116,7 @@
 		C49FD52A1AFB5DF500791E1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C49FD52F1AFB5DF500791E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C49FD5461AFB623000791E1A /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		D373FF1B5AB8B41C65FAB3B2 /* Pods_OAuthSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OAuthSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F43502681A6790EC00038A29 /* OAuth1Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth1Swift.swift; sourceTree = "<group>"; };
 		F43502691A6790EC00038A29 /* OAuth2Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2Swift.swift; sourceTree = "<group>"; };
 		F435026A1A6790EC00038A29 /* OAuthSwiftClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthSwiftClient.swift; sourceTree = "<group>"; };
@@ -135,6 +142,7 @@
 		F490AA271A67EA7D00765D10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F490AA291A67EAE900765D10 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F4C1D03C1A8A5D5000CAF356 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		FF0AD996C6AE558B21CC3C68 /* Pods-OAuthSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OAuthSwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OAuthSwiftDemo/Pods-OAuthSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,12 +172,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				F422B2D91A67B2A20060A70F /* OAuthSwift.framework in Frameworks */,
+				E91AFB8C984C29A3EBFA5C42 /* Pods_OAuthSwiftDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D48EEC37E79B3143E90BB5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				209ED109573D66629D3AE612 /* Pods-OAuthSwiftDemo.debug.xcconfig */,
+				FF0AD996C6AE558B21CC3C68 /* Pods-OAuthSwiftDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		57465EF9910BA48A048BB18F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D373FF1B5AB8B41C65FAB3B2 /* Pods_OAuthSwiftDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C48B28031AFA598D00C7DEF6 /* OAuthSwiftOSX */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,6 +281,8 @@
 				C48B28031AFA598D00C7DEF6 /* OAuthSwiftOSX */,
 				C49FD5251AFB5DF500791E1A /* OAuthSwiftOSXDemo */,
 				F451E3C6195B8CD80051434C /* Products */,
+				1D48EEC37E79B3143E90BB5C /* Pods */,
+				57465EF9910BA48A048BB18F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -279,6 +307,8 @@
 				F451E3E4195B8D030051434C /* Images.xcassets */,
 				F451E3E5195B8D030051434C /* Info.plist */,
 				F490AA281A67EA7D00765D10 /* InfoPlist.strings */,
+				234F37581B0CD2970003BF75 /* Main.storyboard */,
+				234F375A1B0CD4AD0003BF75 /* FitbitViewController.swift */,
 			);
 			path = OAuthSwiftDemo;
 			sourceTree = "<group>";
@@ -364,10 +394,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F451E3DC195B8CD80051434C /* Build configuration list for PBXNativeTarget "OAuthSwiftDemo" */;
 			buildPhases = (
+				65D4A5F17896BC393C871A64 /* Check Pods Manifest.lock */,
 				F451E3C1195B8CD80051434C /* Sources */,
 				F451E3C2195B8CD80051434C /* Frameworks */,
 				F451E3C3195B8CD80051434C /* Resources */,
 				F42F57DC1A67F2050064249F /* Embed Frameworks */,
+				73365A5F5A0D0200A6B83459 /* Embed Pods Frameworks */,
+				46E32BD87924F544B149F57A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -399,6 +432,7 @@
 					};
 					F451E3C4195B8CD80051434C = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 76QBX54687;
 					};
 				};
 			};
@@ -452,12 +486,61 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				234F37591B0CD2970003BF75 /* Main.storyboard in Resources */,
 				F451E3E7195B8D030051434C /* Images.xcassets in Resources */,
 				F490AA261A67EA7D00765D10 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46E32BD87924F544B149F57A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OAuthSwiftDemo/Pods-OAuthSwiftDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65D4A5F17896BC393C871A64 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		73365A5F5A0D0200A6B83459 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OAuthSwiftDemo/Pods-OAuthSwiftDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C48B27FD1AFA598D00C7DEF6 /* Sources */ = {
@@ -519,6 +602,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				234F375B1B0CD4AD0003BF75 /* FitbitViewController.swift in Sources */,
 				F451E3FF195B8E910051434C /* ViewController.swift in Sources */,
 				F4C1D03D1A8A5D5000CAF356 /* WebViewController.swift in Sources */,
 				F451E3E6195B8D030051434C /* AppDelegate.swift in Sources */,
@@ -789,9 +873,11 @@
 		};
 		F451E3DD195B8CD80051434C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 209ED109573D66629D3AE612 /* Pods-OAuthSwiftDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = OAuthSwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -802,14 +888,17 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		F451E3DE195B8CD80051434C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF0AD996C6AE558B21CC3C68 /* Pods-OAuthSwiftDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = OAuthSwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -820,6 +909,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

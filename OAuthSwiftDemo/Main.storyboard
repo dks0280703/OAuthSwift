@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="aBp-je-deX">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Fitbit View Controller-->
+        <scene sceneID="Oem-3l-GNa">
+            <objects>
+                <viewController id="aBp-je-deX" customClass="FitbitViewController" customModule="OAuthSwiftDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f12-eN-9jo"/>
+                        <viewControllerLayoutGuide type="bottom" id="WOb-JY-PH1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="y5A-5M-QZL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Demo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chz-nZ-oow">
+                                <rect key="frame" x="137" y="72" width="46" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xf1-qo-nib">
+                                <rect key="frame" x="118" y="269" width="84" height="30"/>
+                                <state key="normal" title="FitBit OAuth">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="authenticate:" destination="aBp-je-deX" eventType="touchUpInside" id="dPE-gy-ryO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBM-ve-90g">
+                                <rect key="frame" x="111" y="307" width="98" height="30"/>
+                                <state key="normal" title="Get User Data">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="userData:" destination="aBp-je-deX" eventType="touchUpInside" id="8HA-rY-TcW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Xf1-qo-nib" firstAttribute="centerX" secondItem="ZBM-ve-90g" secondAttribute="centerX" id="D3T-bV-kmw"/>
+                            <constraint firstAttribute="centerX" secondItem="Xf1-qo-nib" secondAttribute="centerX" id="Xeg-6e-AhB"/>
+                            <constraint firstItem="chz-nZ-oow" firstAttribute="top" secondItem="f12-eN-9jo" secondAttribute="bottom" constant="8" id="ZgL-K1-Avn"/>
+                            <constraint firstAttribute="centerY" secondItem="Xf1-qo-nib" secondAttribute="centerY" id="hwM-rP-Aws"/>
+                            <constraint firstAttribute="centerX" secondItem="chz-nZ-oow" secondAttribute="centerX" id="rPI-WY-CQX"/>
+                            <constraint firstItem="ZBM-ve-90g" firstAttribute="top" secondItem="Xf1-qo-nib" secondAttribute="bottom" constant="8" id="vQZ-pT-q11"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="KiK-iH-UOe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dxj-MF-35i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="796" y="491"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vmx-jH-yiM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="g6d-bh-n4r" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZE3-RN-YJP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="aBp-je-deX" kind="relationship" relationship="rootViewController" id="7X7-Bv-XzF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="82f-tl-ihj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="264" y="491"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
